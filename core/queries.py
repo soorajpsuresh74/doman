@@ -22,3 +22,19 @@ PYTHON_QUERY = """
         ) @class_block
     )
 """
+
+KOTLIN_QUERY = """
+(class_declaration
+  name: (identifier) @class_name
+  (class_body
+    (block_comment)? @class_docstring
+    (function_declaration
+      (block_comment)? @function_docstring
+      name: (identifier) @function_name
+      (function_body
+        (block)? @function_body
+      )
+    )*
+  ) @class_body
+)
+"""

@@ -3,8 +3,8 @@ import asyncio
 
 
 async def start_docman():
-    docman = Docman(r"C:\Users\bornd\Desktop\New folder")
-    # docman = Docman(r"core")
+    # docman = Docman(r"C:\Users\bornd\Desktop\New folder")
+    docman = Docman(r"test_folder")
     await docman.process_directory()
 
 

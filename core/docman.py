@@ -4,7 +4,6 @@ from tree_sitter import Tree
 
 from core.analysis import analyse_tree
 from core.treeSitter.treeSitterConfig import LANGUAGE_PARSERS
-from core.treeSitter.treeSitterParser import DocmanParsers
 from core.treeSitter.treeSitterQueryClasses import QUERY_CLASS_MAPPINGS
 from DocmanLogger.docmanLogger import setup_logger
 

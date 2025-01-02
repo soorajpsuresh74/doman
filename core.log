@@ -687,3 +687,43 @@
 2025-01-02 16:54:07 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
 2025-01-02 16:54:07 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
 2025-01-02 16:54:14 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-02 21:38:56 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-02 21:38:56 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 21:38:56 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 21:38:56 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-02 21:38:59 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:39:45 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-03 12:39:45 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\kotlin.kt
+2025-01-03 12:39:45 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\kotlin.kt
+2025-01-03 12:39:45 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:39:45 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:39:45 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:39:47 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:40:42 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-03 12:40:42 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\kotlin.kt
+2025-01-03 12:40:42 - file_reader - ERROR - An exception occurred while processing C:\Users\bornd\Desktop\New folder\kotlin.kt: 'coroutine' object has no attribute 'splitlines'
+2025-01-03 12:40:42 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:40:42 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:40:42 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:40:45 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:41:39 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-03 12:41:39 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\kotlin.kt
+2025-01-03 12:41:43 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\kotlin.kt
+2025-01-03 12:41:43 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:41:43 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-03 12:41:43 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:41:45 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-03 12:48:00 - file_reader - INFO - Processing directory: test_folder
+2025-01-03 12:48:00 - file_reader - INFO - Processing file: test_folder\kotlin.kt
+2025-01-03 12:48:04 - file_reader - INFO - Successfully processed file: test_folder\kotlin.kt
+2025-01-03 12:48:04 - file_reader - INFO - Processing file: test_folder\test_2.py
+2025-01-03 12:48:04 - file_reader - INFO - Successfully processed file: test_folder\test_2.py
+2025-01-03 12:48:04 - file_reader - INFO - Processing file: test_folder\test_file.py
+2025-01-03 12:48:06 - file_reader - INFO - Successfully processed file: test_folder\test_file.py
+2025-01-03 12:55:02 - file_reader - INFO - Processing directory: test_folder
+2025-01-03 12:55:02 - file_reader - INFO - Processing file: test_folder\kotlin.kt
+2025-01-03 12:55:06 - file_reader - INFO - Successfully processed file: test_folder\kotlin.kt
+2025-01-03 12:55:06 - file_reader - INFO - Processing file: test_folder\test_2.py
+2025-01-03 12:55:06 - file_reader - INFO - Successfully processed file: test_folder\test_2.py
+2025-01-03 12:55:06 - file_reader - INFO - Processing file: test_folder\test_file.py
+2025-01-03 12:55:08 - file_reader - INFO - Successfully processed file: test_folder\test_file.py

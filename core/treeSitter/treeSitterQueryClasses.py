@@ -1,4 +1,4 @@
-from core.queries import PYTHON_QUERY
+from core.queries import PYTHON_QUERY, KOTLIN_QUERY
 from core.treeSitter.treeSitterLanguage import PYTHON_LANGUAGE, KOTLIN_LANGUAGE, JAVA_LANGUAGE, HTML_LANGUAGE
 
 
@@ -9,7 +9,7 @@ class PythonQuery:
 
 class KotlinQuery:
     language = KOTLIN_LANGUAGE
-    # query = language.query()
+    query = language.query(KOTLIN_QUERY)
 
 
 class JavaQuery:
