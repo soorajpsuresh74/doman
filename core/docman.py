@@ -13,7 +13,7 @@ logger = setup_logger(name="file_reader", log_file="core.log")
 
 def detect_language_parser_queries(file_path):
     _, ext = os.path.splitext(file_path)
-    return LANGUAGE_PARSERS.get(ext.lower()), QUERY_CLASS_MAPPINGS.get(ext.lower())
+    return LANGUAGE_PARSERS.get(ext.lower()), QUERY_CLASS_MAPPINGS.get(ext.lower()), ext.lower()
 
 
 def make_syntax_tree(code: str, language_parser) -> Tree:
@@ -38,7 +38,7 @@ class Docman:
 
             for file_name in files:
                 file_path = os.path.join(root, file_name)
-                language_parser, query = detect_language_parser_queries(file_path)
+                language_parser, query, language = detect_language_parser_queries(file_path)
 
                 if language_parser and query:
                     try:
@@ -48,7 +48,7 @@ class Docman:
 
                             tree = make_syntax_tree(code, language_parser)
 
-                            await analyse_tree(tree, query.query, code)
+                            await analyse_tree(tree, query.query, code, language)
 
                             logger.info(f"Successfully processed file: {file_path}")
                     except Exception as e:

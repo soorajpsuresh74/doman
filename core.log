@@ -677,3 +677,13 @@
 2025-01-02 16:31:53 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
 2025-01-02 16:31:53 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
 2025-01-02 16:31:53 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-02 16:53:43 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-02 16:53:43 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 16:53:43 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 16:53:43 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-02 16:53:44 - file_reader - ERROR - An exception occurred while processing C:\Users\bornd\Desktop\New folder\test_file.py: 'coroutine' object has no attribute 'splitlines'
+2025-01-02 16:54:07 - file_reader - INFO - Processing directory: C:\Users\bornd\Desktop\New folder
+2025-01-02 16:54:07 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 16:54:07 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_2.py
+2025-01-02 16:54:07 - file_reader - INFO - Processing file: C:\Users\bornd\Desktop\New folder\test_file.py
+2025-01-02 16:54:14 - file_reader - INFO - Successfully processed file: C:\Users\bornd\Desktop\New folder\test_file.py

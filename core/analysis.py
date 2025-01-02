@@ -6,7 +6,7 @@ from core.generator.docstringGenarator import docstring_generator_function
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
-class Analyzer:
+class PYAnalyzer:
     @staticmethod
     async def generate_and_insert_docstring(tree, node, block_type):
         pass
@@ -26,10 +26,6 @@ class Analyzer:
             class_block_node = node_dict.get('class_block', [None])[0]
             function_block_node = node_dict.get('function_block', [None])[0]
 
-            print(class_name_node, function_name_node)
-            print(class_docstring_node, function_docstring_node)
-            print(class_block_node, function_block_node)
-
             if function_name_node:
                 function_name = payload[function_name_node.start_byte:function_name_node.end_byte]
                 if function_block_node:
@@ -39,8 +35,7 @@ class Analyzer:
 
                     if full_function_code:
                         if not function_docstring_node:
-                            prompt = f"Generate a docstring for the following Python function:\n\n{full_function_code}"
-                            generated_docstring = "This is a sample docstring.\nIt spans multiple lines.\n"
+                            generated_docstring = await docstring_generator_function(full_function_code)
                             first_line = full_function_code.splitlines()[0]
                             indentation = len(first_line) - len(first_line.lstrip())
 
@@ -106,10 +101,10 @@ class Analyzer:
                             print(f"Updated code with the new docstring:\n{updated_payload}")
 
 
-async def analyse_tree(tree: Tree, query, code):
+async def analyse_tree(tree: Tree, query, code, language):
     root_node = tree.root_node
-    analyser = Analyzer()
-
-    logging.info("Starting the analysis process...")
-    await analyser.iterate_to_find_the_functions(root_node, query, code)
-    logging.info("Analysis process complete.")
+    if language == '.py':
+        analyser = PYAnalyzer()
+        logging.info("Starting the analysis process...")
+        await analyser.iterate_to_find_the_functions(root_node, query, code)
+        logging.info("Analysis process complete.")
