@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a2eef00-d481-4f78-a4b8-439a2a660bd2" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/test_folder/kotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_folder/test_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_folder/test_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core.log" beforeDir="false" afterPath="$PROJECT_DIR$/core.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/docman.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/docman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/generator/docstringGenarator.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/generator/docstringGenarator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/queries.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/queries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/treeSitter/treeSitterQueryClasses.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/treeSitter/treeSitterQueryClasses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="8a2eef00-d481-4f78-a4b8-439a2a660bd2" name="Changes" comment="added kotlin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,12 +177,37 @@
       <option name="project" value="LOCAL" />
       <updated>1735834064172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added kotlin">
+      <option name="closed" value="true" />
+      <created>1735889152712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735889152712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added kotlin">
+      <option name="closed" value="true" />
+      <created>1735889160912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735889160912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added kotlin">
+      <option name="closed" value="true" />
+      <created>1735889166728</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735889166728</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="added kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added kotlin" />
   </component>
 </project>
