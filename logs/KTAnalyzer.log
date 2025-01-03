@@ -1,0 +1,109 @@
+2025-01-03 12:55:02 - KTAnalyzer - INFO - Calculator
+2025-01-03 12:55:02 - KTAnalyzer - INFO - 116
+2025-01-03 12:55:02 - KTAnalyzer - INFO - 650
+2025-01-03 12:55:02 - KTAnalyzer - INFO - add
+2025-01-03 12:55:02 - KTAnalyzer - INFO - 316
+2025-01-03 12:55:02 - KTAnalyzer - INFO - 369
+2025-01-03 12:55:02 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+        return a + b
+    }
+2025-01-03 12:55:04 - KTAnalyzer - INFO - ```kotlin
+/** Adds two integers and returns the sum. */
+```
+
+2025-01-03 12:55:04 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+2025-01-03 12:55:04 - KTAnalyzer - INFO - /*
+```kotlin
+/** Adds two integers and returns the sum. */
+```
+*/
+
+2025-01-03 12:55:04 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+        /*
+        ```kotlin
+        /** Adds two integers and returns the sum. */
+        ```
+        */
+        return a + b
+    }
+2025-01-03 12:55:04 - KTAnalyzer - INFO - Calculator
+2025-01-03 12:55:04 - KTAnalyzer - INFO - 116
+2025-01-03 12:55:04 - KTAnalyzer - INFO - 650
+2025-01-03 12:55:04 - KTAnalyzer - INFO - subtract
+2025-01-03 12:55:04 - KTAnalyzer - INFO - 590
+2025-01-03 12:55:04 - KTAnalyzer - INFO - 648
+2025-01-03 12:55:04 - KTAnalyzer - INFO - subtract(a: Int, b: Int): Int {
+        return a - b
+    }
+2025-01-03 12:55:05 - KTAnalyzer - INFO - /** Subtracts two integers and returns the result. */
+
+2025-01-03 12:55:05 - KTAnalyzer - INFO - subtract(a: Int, b: Int): Int {
+2025-01-03 12:55:05 - KTAnalyzer - INFO - /*
+/** Subtracts two integers and returns the result. */
+*/
+
+2025-01-03 12:55:05 - KTAnalyzer - INFO - subtract(a: Int, b: Int): Int {
+        /*
+        /** Subtracts two integers and returns the result. */
+        */
+        return a - b
+    }
+2025-01-03 12:55:05 - KTAnalyzer - INFO - Calculator
+2025-01-03 12:55:05 - KTAnalyzer - INFO - 658
+2025-01-03 12:55:05 - KTAnalyzer - INFO - 826
+2025-01-03 12:55:06 - KTAnalyzer - INFO - ```kotlin
+/** Performs basic arithmetic operations. */
+```
+
+2025-01-03 12:55:06 - KTAnalyzer - INFO - Calculator {
+2025-01-03 12:55:06 - KTAnalyzer - INFO - /*
+```kotlin
+/** Performs basic arithmetic operations. */
+```
+*/
+
+2025-01-03 12:55:06 - KTAnalyzer - INFO - Calculator {
+    /*
+    ```kotlin
+    /** Performs basic arithmetic operations. */
+    ```
+    */
+
+    fun add(a: Int, b: Int): Int {
+    /*
+    ```kotlin
+    /** Performs basic arithmetic operations. */
+    ```
+    */
+        return a + b
+    }
+
+    fun subtract(a: Int, b: Int): Int {
+    /*
+    ```kotlin
+    /** Performs basic arithmetic operations. */
+    ```
+    */
+    	//add two numbers
+        return a - b
+    }
+}
+2025-01-03 12:55:06 - KTAnalyzer - INFO - add
+2025-01-03 12:55:06 - KTAnalyzer - INFO - 680
+2025-01-03 12:55:06 - KTAnalyzer - INFO - 733
+2025-01-03 12:55:06 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+        return a + b
+    }
+2025-01-03 12:55:06 - KTAnalyzer - INFO - /** Adds two integers and returns the sum. */
+
+2025-01-03 12:55:06 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+2025-01-03 12:55:06 - KTAnalyzer - INFO - /*
+/** Adds two integers and returns the sum. */
+*/
+
+2025-01-03 12:55:06 - KTAnalyzer - INFO - add(a: Int, b: Int): Int {
+        /*
+        /** Adds two integers and returns the sum. */
+        */
+        return a + b
+    }
